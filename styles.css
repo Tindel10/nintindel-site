@@ -117,24 +117,26 @@ nav a:hover {
     border: 2px solid #00e6e6;
     transition: transform 0.2s;
 }
-
 .step:hover, .community-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 10px #00e6e6;
 }
-
-.community-card img {
-    max-width: 100%;
-    border-radius: 5px;
+.ticker {
+  text-align: center;
+  color: #00e6e6; /* Neon blue */
+  font-family: 'Arial', sans-serif;
+  margin: 20px 0;
 }
-
+.ticker a {
+  color: #ff4d4d; /* Red */
+  text-decoration: underline;
+}
 footer {
     text-align: center;
     padding: 20px;
     background: #000;
     border-top: 4px solid #ff4d4d;
 }
-
 footer a {
     color: #00e6e6;
     text-decoration: none;
