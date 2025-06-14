@@ -123,13 +123,30 @@ nav a:hover {
 }
 .ticker {
   text-align: center;
-  color: #00e6e6; /* Neon blue */
+  color: #00e6e6 !important;
   font-family: 'Arial', sans-serif;
   margin: 20px 0;
+  padding: 10px;
+  display: block !important;
+  visibility: visible !important;
+  position: relative;
+  z-index: 100;
+  background: #1a1a1a;
+  border-radius: 5px;
 }
 .ticker a {
-  color: #ff4d4d; /* Red */
+  color: #ff4d4d !important;
   text-decoration: underline;
+}
+.content {
+  display: block !important;
+  visibility: visible !important;
+  position: relative;
+}
+.safety-note {
+  color: #ffffff;
+  font-size: 0.9em;
+  margin-top: 10px;
 }
 footer {
     text-align: center;
